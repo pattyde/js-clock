@@ -1,5 +1,5 @@
 html {
-  background: #018DED;
+  background: #88D9E6;
   font-family: sans-serif;
   text-align: center;
   font-size: 10px;
@@ -28,7 +28,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  transform: rotate(90deg);
+  transform: rotate(90deg) translateY(3px);
 }
 
 .hand {
