@@ -28,7 +28,6 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  transform: translateY(-3px);
   transform: rotate(90deg);
 }
 
@@ -52,4 +51,17 @@ body {
   height: 3px;
   background: red;
   z-index: 1;
+}
+
+.inner-circle {
+  width:18px;
+  height: 18px;
+  border-radius: 18px;
+  margin-left: -9px;
+  margin-top: -9px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2
 }
